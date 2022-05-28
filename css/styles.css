@@ -40,7 +40,12 @@ main {
   margin: 0 auto;
 }
 
+
+
 /* Header styles */
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
 
 .main-nav {
   display: flex;
@@ -156,6 +161,9 @@ main {
   background-color: #2f303a;
 }
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
   margin-top: 0;
   margin-bottom: 40px;
 
@@ -178,6 +186,7 @@ main {
 .feuture-list .item:not(:last-child) {
   margin-right: 30px;
 }
+
 
 .feuture-list .title {
   margin-top: 0;
@@ -276,6 +285,16 @@ background-color: var(--white-color);
   color: var(--accent-color);
 }
 /* portfolio */
+.image {
+  display: block;
+}
+
+.item-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px solid #ECECEC;
+  padding: 20px 24px;
+}
 
 .buttons {
   display: flex;
@@ -315,10 +334,12 @@ background-color: var(--white-color);
 
 }
 .works .link {
+  margin-top: 0;
+  margin-bottom: 0;
   text-decoration: none;
 }
 .works .title {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 0;
 
   font-weight: 700;
@@ -346,4 +367,10 @@ background-color: var(--white-color);
 }
 .works .item:nth-child(3n) {
   margin-right: 0;
+}
+
+.transparent {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: transparent;
 }
